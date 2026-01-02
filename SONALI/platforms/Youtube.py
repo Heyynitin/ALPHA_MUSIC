@@ -5,9 +5,9 @@ from typing import Union
 import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
-from KanhaMusic.utils.formatters import time_to_seconds
+from SONALI.utils.formatters import time_to_seconds
 import aiohttp
-from KanhaMusic import LOGGER
+from SONALI import LOGGER
 
 try:
     from py_yt import VideosSearch
